@@ -35,7 +35,7 @@ venv.bak/
 # Dependency directories
 node_modules/
 jspm_packages/
-
+*.log
 # IDEs and editors
 .vscode/
 .vs/
@@ -53,3 +53,4 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+node_modules/

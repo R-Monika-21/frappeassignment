@@ -4,7 +4,17 @@ app_publisher = "Monika R"
 app_description = "Library management manages all work related to the Library"
 app_email = "monikaravikumar227@gmail.com"
 app_license = "mit"
-
+app_include_js = "custom_desk.bundle.js"
+doc_events = {
+    "User": {
+        "validate": "library_management.api.custom_logic"
+    }
+}
+scheduler_events = {
+    "daily": [
+        "library_management.tasks.daily_maintenance"
+    ]
+}
 # Apps
 # ------------------
 
