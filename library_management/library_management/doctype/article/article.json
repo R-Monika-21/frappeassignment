@@ -33,7 +33,7 @@
    "fieldname": "author",
    "fieldtype": "Link",
    "label": "Author",
-   "options": "Author"
+   "options": "Book Author"
   },
   {
    "fieldname": "description",
@@ -60,7 +60,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-26 15:47:14.566410",
+ "modified": "2026-09-04 10:46:21.526565",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",

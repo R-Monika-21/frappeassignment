@@ -1,7 +1,7 @@
 // Copyright (c) 2026, Monika R and contributors
 // For license information, please see license.txt
 
-// frappe.ui.form.on("Author", {
+// frappe.ui.form.on("Book Author", {
 // 	refresh(frm) {
 
 // 	},

@@ -2,37 +2,43 @@
  "actions": [],
  "allow_bulk_edit": 1,
  "allow_rename": 1,
- "autoname": "field:author_name",
- "creation": "2026-08-26 15:44:19.666320",
+ "autoname": "field:book_title",
+ "creation": "2026-08-28 12:51:31.898034",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "author_name",
-  "email"
+  "book_title",
+  "author",
+  "status"
  ],
  "fields": [
   {
-   "fieldname": "author_name",
+   "fieldname": "book_title",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Author Name",
-   "reqd": 1,
+   "label": "Book Title",
    "unique": 1
   },
   {
-   "fieldname": "email",
-   "fieldtype": "Data",
-   "label": "Email"
+   "fieldname": "author",
+   "fieldtype": "Link",
+   "label": "Author",
+   "options": "Book Author"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nBorrowed\nArchived"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-26 15:45:54.632291",
+ "modified": "2026-08-28 12:53:25.956299",
  "modified_by": "Administrator",
  "module": "Library Management",
- "name": "Author",
- "naming_rule": "Expression",
+ "name": "Book",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
