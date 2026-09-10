@@ -1,0 +1,23 @@
+
+<div style = "text-align: center; margin-bottom:20px">
+    <h2>Book Author Report</h2>
+</div>
+<table class = "table table-bordered">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Author Name</th>
+            <th>Email</th>
+            <th>Created On</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (var i = 0 ; i < data.length; i++) { %>
+        <tr> 
+            <td><%= data[i].serial_no %></td>
+            <td><%= data[i].author_name%></td>
+            <td><%= data[i].email%></td>
+            <td><%= dateutil.str_to_user(data[i].creation) %></td>
+        </tr>}
+    </tbody>
+</table>
