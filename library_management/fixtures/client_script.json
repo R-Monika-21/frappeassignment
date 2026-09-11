@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "User",
+  "enabled": 1,
+  "modified": "2026-09-11 11:35:54.855954",
+  "module": null,
+  "name": "User client script",
+  "script": "frappe.ui.form.on('User', {\n    refresh(frm) {\n        frm.add_custom_button('Send Welcome Email', function() {\n            frappe.msgprint('Email Sent');\n        }, 'Actions');\n    }\n});",
+  "view": "Form"
+ }
+]

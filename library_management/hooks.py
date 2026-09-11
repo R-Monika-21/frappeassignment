@@ -15,6 +15,7 @@ scheduler_events = {
         "library_management.tasks.daily_maintenance"
     ]
 }
+fixtures = ["Client Script"]
 # Apps
 # ------------------
 
